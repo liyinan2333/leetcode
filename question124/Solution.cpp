@@ -2,6 +2,10 @@
 #include "math.h"
 #include "../bean/Node.cpp"
 
+/**
+ * @author leoli
+ * @date 2021/4/8
+ */
 class Solution {
 private:
     int maxSum = INT32_MIN;
