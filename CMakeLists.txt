@@ -3,4 +3,4 @@ project(leetcode)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(leetcode main.cpp question124/Solution.cpp bean/Node.cpp)
+add_executable(leetcode main.cpp question124/solution.cpp bean/Node.cpp)
