@@ -1,4 +1,4 @@
-package leoli.leetcode.question124;
+package leoli.leetcode.question0124;
 
 import leoli.leetcode.bean.TreeNode;
 
