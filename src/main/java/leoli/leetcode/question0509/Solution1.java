@@ -26,15 +26,17 @@ import java.util.Map;
  * 提示：
  * 0 <= n <= 30
  *
+ * 方案１：递归(自顶向下)＋去重
+ *
  * @author leoli
  * @date 2021/4/15
  * @See https://leetcode-cn.com/problems/fibonacci-number
  */
-public class Solution {
+class Solution1 {
 
-    private Map<Integer, Integer> values = new HashMap<>();
+    Map<Integer, Integer> values = new HashMap<>();
 
-    public int fib(int n) {
+    int fib(int n) {
         if (n == 0 || n == 1) return n;
         Integer valueN = values.get(n);
         if (valueN == null) {
