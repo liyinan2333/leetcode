@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 方式2：中序遍历时记录pre指针，比较pre和current，记录异常节点并互换
+ *
  * @author leoli
  * @date 2021/4/14
  */
